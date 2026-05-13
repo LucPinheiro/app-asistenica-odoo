@@ -32,5 +32,50 @@ Aplicación móvil de control de asistencia integrada con Odoo, desarrollada con
 - `odooApi.ts` → comunicación con Odoo  
 - `config.tsx` → configuración del servidor  
 - `useAttendanceMain.ts` → lógica principal  
-- `useLocation.ts` → gestión de ubicación  
+- `useLocation.ts` → gestión de ubicación
+
+# App Asistencia Odoo
+
+```text
+app-asistenica-odoo/
+│
+├── README.md
+├── requirements.txt
+│
+├── app_asistencia/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── asistencia/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── tests.py
+│   │
+│   ├── migrations/
+│   │   └── __init__.py
+│   │
+│   ├── templates/
+│   │   └── asistencia/
+│   │       ├── lista.html
+│   │       ├── formulario.html
+│   │       ├── confirmar_eliminar.html
+│   │       └── importar_csv.html
+│   │
+│   └── static/
+│       └── asistencia/
+│           ├── css/
+│           ├── js/
+│           └── img/
+│
+├── db.sqlite3
+│
+└── venv/
 
